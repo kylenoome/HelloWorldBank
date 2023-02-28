@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.6.6+commit.6c089d02"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address[]",
+						"name": "_receivers",
+						"type": "address[]"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "batchTransfer",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/BEC_Target/BEC_Target.sol": "BEC_Target"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/BEC_Target/BEC_Target.sol": {
+			"keccak256": "0x107dcdd5fe60d9a5ba176ca8d7825f71b8d124c7eb72550a2d53cac59dc31930",
+			"urls": [
+				"bzz-raw://7748efec8f615c0e832a55a3948dd0f967411bbbaa07efd5551eb47d58b680f4",
+				"dweb:/ipfs/QmURAKNxqtq91yrGVpgJA7PwbKRBLNQdPeS9NyAwrrNQ8N"
+			]
+		}
+	},
+	"version": 1
+}
